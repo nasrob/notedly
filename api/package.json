@@ -1,0 +1,24 @@
+{
+  "name": "notedly-api",
+  "version": "1.0.0",
+  "description": "notedly api code",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon src/index.js",
+    "dev": "nodemon src/index.js",
+    "final": "nodemon final/index.js",
+    "seed": "node final/util/seed/index.js",
+    "linst": "eslint \"src/**/*.js\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nasser Boukehil",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^7.22.0",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-plugin-prettier": "^3.3.1",
+    "faker": "^5.4.0",
+    "node-fetch": "^2.6.1",
+    "prettier": "2.2.1"
+  }
+}
