@@ -4,7 +4,10 @@ const mongoose = require('mongoose');
 const noteSchema = new mongoose.Schema(
     {
         content: { type: String, required: true },
-        author: { type: String, required: true}
+        author: { 
+            type: mongoose.Schema.Types.ObjectId, 
+            String, 
+            required: true}
     },
     {
         // Assigns createdAt and updateAt fields with a Date type
